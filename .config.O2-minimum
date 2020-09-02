@@ -2992,10 +2992,10 @@ CONFIG_PACKAGE_kmod-sdhci-mt7620=y
 # SPI Support
 #
 # CONFIG_PACKAGE_kmod-mmc-spi is not set
-# CONFIG_PACKAGE_kmod-spi-bitbang is not set
-# CONFIG_PACKAGE_kmod-spi-dev is not set
-# CONFIG_PACKAGE_kmod-spi-gpio is not set
-# CONFIG_PACKAGE_kmod-spi-gpio-custom is not set
+CONFIG_PACKAGE_kmod-spi-bitbang=m
+CONFIG_PACKAGE_kmod-spi-dev=y
+CONFIG_PACKAGE_kmod-spi-gpio=m
+CONFIG_PACKAGE_kmod-spi-gpio-custom=m
 
 #
 # Sound Support
@@ -3078,7 +3078,6 @@ CONFIG_PACKAGE_kmod-usb2=y
 # CONFIG_PACKAGE_kmod-usbip-client is not set
 # CONFIG_PACKAGE_kmod-usbip-server is not set
 # CONFIG_PACKAGE_kmod-usbmon is not set
-
 
 #
 # Video Support
@@ -5482,7 +5481,7 @@ CONFIG_PACKAGE_url-enc-dec=y
 #
 # WiFi
 #
-# CONFIG_PACKAGE_wifi-warp-core is not set
+CONFIG_PACKAGE_wifi-warp-core=y
 
 #
 # Sound
